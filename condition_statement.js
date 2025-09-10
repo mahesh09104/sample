@@ -1,0 +1,10 @@
+
+const readlineSync = require("readline-sync");
+const number = Number(readlineSync.question("enter a number :"));
+console.log(number);
+if(number > 0){
+    console.log(`${number} is a positive number`);
+    if(number%2 === 0);{
+        console.log(`${number} is a even number`);
+    }
+}
